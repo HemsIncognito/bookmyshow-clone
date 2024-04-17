@@ -5,7 +5,15 @@
 body{
     background-color: #f5f5f5 !important;
 }
-  
+
+.bg-premier.py-12 {
+    background-color: rgb(43 49 71 ) !important;
+}
+
+.bg-darkBackground-700 {
+    background-color: rgb(54 56 73 );
+}
+
 .slick-prev{
     left: 3% !important;
     z-index: 1;
