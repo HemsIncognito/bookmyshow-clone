@@ -6,10 +6,11 @@ const PosterSlider = (props) => {
   const { posters, isDark, title, subtitle  } = props;
 
   const settings = {
-    slidesToShow: 5,
     infinite: true,
+    slidesToShow: 5,
     speed: 500,
     slidesToScroll: 4,
+    initailSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
