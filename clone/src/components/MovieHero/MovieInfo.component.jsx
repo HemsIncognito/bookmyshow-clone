@@ -19,8 +19,8 @@ const MovieInfo = ({movie}) => {
 						<h4>{movie.runtime} min | {genres} </h4>
         </div>
 				<div className="flex items-center gap-3 w-full">
-            <button onClick={rentMovie} className="bg-red-500 w-1/3 py-3 px-8 text-white font-semibold rounded-lg"> Rent ₹149 </button>
-            <button onClick={buyMovie} className="bg-red-600 w-1/3 py-3 px-8 text-white font-semibold rounded-lg"> Buy ₹499 </button>
+            <button onClick={rentMovie} className="bg-red-500 w-1/3 py-3 text-white font-semibold rounded-lg"> Rent ₹149 </button>
+            <button onClick={buyMovie} className="bg-red-600 w-1/3 py-3 text-white font-semibold rounded-lg"> Buy ₹499 </button>
           </div>
     </div>
     </>
